@@ -1,0 +1,70 @@
+body{
+	background-color: lavender;
+	cursor: default;
+}
+
+.card{
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+h1{
+	font-family: Lucida Sans Type Writer;
+	font-style: italic;
+	font-size: 60px;
+}
+
+h2{
+	font-family: Lucida Sans Type Writer;
+	margin-bottom: 1rem;
+}
+
+
+p{
+	font-family: monospace;
+}
+
+.bannerr{
+	margin-bottom: 20px;
+}
+
+.bannerr:hover{
+   filter: grayscale(100%);
+   transition: 1s;
+}
+
+.card-img-top{
+
+	width: 100%;
+	padding: 1rem;
+}
+
+.card-img-top:hover{
+	width: 400px;
+	transition: 3s;
+}
+
+.dropdown{
+	margin-right: 50px;
+	float: right;
+}
+
+#dropdownMenuButton{
+	background-color: grey; !important;
+}
+
+#dropdownMenuButton:hover{
+	background-color: red;
+}
+
+#buttonfooter{
+	color: white;
+	background-color: black;
+	font-size: 20px;
+}
+
+#buttonfooter:hover{
+	color: black;
+	background-color: white;
+	transition: 0.5s;
+}
